@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="TestQuickFuseApps(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.FuseAppTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="selectCreateApp"/>
+        </methods>
+      </class> <!-- tests.FuseAppTest -->
+    </classes>
+  </test> <!-- TestQuickFuseApps(failed) -->
+</suite> <!-- Failed suite [Suite] -->

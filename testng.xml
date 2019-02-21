@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PlivoSuite">
+<parameter name="browser" value="chrome"/>
+  <test name="TestQuickFuseApps">  
+    <classes>
+      <class name="tests.SetupTest"/>
+      <class name="tests.AppCreation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
